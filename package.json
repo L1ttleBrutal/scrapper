@@ -1,0 +1,8 @@
+{
+    "name": "marketflow-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "vercel-build": "cd ui && npm install && npm run build"
+    }
+}
