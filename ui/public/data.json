@@ -1,0 +1,23 @@
+{
+    "signalId": "mock-uuid-1234",
+    "timestamp": "2026-02-21T23:30:05.000",
+    "state": {
+        "symbol": "BTCUSDT",
+        "price": 64320.50,
+        "regime": "TRENDING UP",
+        "volatility": 2.50,
+        "trendStrength": 2.5
+    },
+    "strategy": {
+        "name": "MarketFlow Engine",
+        "breakoutReady": false,
+        "orderFlowSignal": 0.35,
+        "combinedSignal": 0.35
+    },
+    "execution": {
+        "action": "BUY",
+        "positionSize": 0.0525,
+        "confidence": 0.35,
+        "logDetails": "Condition met for BUY action during TRENDING regime."
+    }
+}
